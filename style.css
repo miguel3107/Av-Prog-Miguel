@@ -1,0 +1,69 @@
+
+:root{
+    --cor-de-fundo: #132a48;
+    --branco-principal: #FFFFFF;
+    --fundo-degrade: #134848,#73a3b5;
+}
+
+header{
+    display: flex;
+}
+.cabecalho{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-size: 15px;
+    text-align: justify; 
+}
+
+.cabecalho__logo{
+    width: 10%;
+    padding: 1em;
+}
+
+.cabecalho__texto{
+    font-size: 15px;
+}
+
+.tema{
+    background: linear-gradient(#132948,#73a0b5);
+    display: inline-flex;    
+}
+
+.imagem__1{
+    width:25%;
+    margin: 5em;
+}
+
+.imagem__2{
+    width: 25%;
+    margin: 5em;  
+}
+
+.texto{
+    display: inline-block;
+    text-align: center;
+    margin: 1em;
+}
+
+.tema__titulo{
+    color: var(--branco-principal);
+    font-size: 50px;
+}
+
+.tema__descricao{
+    color: var(--branco-principal);
+    font-size: 30px;
+}
+
+
+@media screen and (min-width: 1000px) {
+    
+}
+
+@media screen and (min-width: 1500px) {
+    .tema__titulo{
+        color: rgb(0, 123, 255);
+        font-size: 30px;
+    }
+   
+}
